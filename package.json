@@ -1,0 +1,28 @@
+{
+  "name": "nft-ai-back",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "serve": "nodemon --config nodemon.json --delay 500ms ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roabhi/NFT-AI-Back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roabhi/NFT-AI-Back/issues"
+  },
+  "homepage": "https://github.com/roabhi/NFT-AI-Back#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "openai": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
